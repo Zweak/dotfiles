@@ -4,9 +4,10 @@
 - [ ] Sww, Pywal Wallpaper
 - [ ] Volume Mixer
 - [ ] Neovim setup
+- [ ] SDDM
 - [ ] Swaylock
 - [ ] Learn backups
 - [ ] Windows VM
-- [ ] Make dotfiles
+- [x] Make dotfiles
 - [ ] BadApple script(in terminal)
-- [ ] Fix Nvidia shit (Low res tty)
+- [x] Fix Nvidia shit (Low res tty)

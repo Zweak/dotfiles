@@ -2,7 +2,11 @@
 
 Pacman:
 ```console
-sudo pacman -Syu git nano gtk3 dhcpcd firefox neofetch wget zsh starship htop unzip polkit-kde-agent xdg-desktop-portal-hyprland qt5-wayland qt6-wayland dunst ttf-jetbrains-mono ttf-jetbrains-mono-nerd awesome-terminal-fonts $(pacman -Ssq noto-fonts)
+sudo pacman -Syu git nano gtk3 dhcpcd firefox neofetch  \
+wget zsh starship htop unzip polkit-kde-agent   \
+xdg-desktop-portal-hyprland qt5-wayland qt6-wayland \
+dunst ttf-jetbrains-mono ttf-jetbrains-mono-nerd    \
+awesome-terminal-fonts $(pacman -Ssq noto-fonts)
 ```
 
 AUR:
@@ -20,7 +24,7 @@ Git Repos:
 # Yay: 
 git clone https://aur.archlinux.org/yay-bin.git
 
-Zsh:
+# Zsh:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -30,7 +34,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 ## Programs
 ```console
-sudo pacman -S discord github-cli baobab extra/bind nautilus vlc obs-studio docker docker-compose gnome-clocks imagemagick font-manager
+sudo pacman -S discord github-cli baobab extra/bind \
+nautilus vlc obs-studio docker docker-compose gnome-clocks  \
+imagemagick font-manager
 
 ```
 ```console

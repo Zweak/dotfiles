@@ -1,0 +1,15 @@
+configuration {
+    modi:                        "drun,filebrowser,window,run";
+    show-icons:                  true;
+    display-drun:                "";
+    display-run:                 "";
+    display-filebrowser:         "";
+    display-window:              "";
+    display-emoji:               "😏";
+    drun-display-format:         "{name}";
+    window-format:               "Class : {c}\nWorkspace : {w}";
+    font:                        "Torus 12";
+    icon-theme:                  "Papirus";
+}
+
+@theme "./themes/style2.rasi"
